@@ -1,8 +1,9 @@
-import { Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home/Home/Home";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Register/Register";
+import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import Header from "./Pages/Shared/Header/Header";
 
 function App() {
